@@ -2,11 +2,15 @@
   box-sizing: border-box;
 }
 
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 header {
-  background-color: #404146;
+  background-color: #000000;
   color: white;
   height: 65px;
 }
@@ -17,21 +21,66 @@ header li {
   padding: 0 15px;
 }
 
+.btn-dark {
+  background-color: #000000;
+  border: 0;
+}
+
+.btn-dark {
+  background-color: #000000;
+  border: 0;
+}
+
+.btn-dark:hover {
+  background-color: #000000;
+}
+
+.btn-primary {
+  background-color: #2a48fa;
+  border-radius: 25px;
+  width: 140px;
+}
+
+.header-logo {
+  float: left;
+  line-height: 65px;
+  width: 160px;
+}
+
+.header-logo img {
+  width: 160px;
+}
+
 .header-left {
   float: left;
-  font-size: large;
-  font-weight: bold;
-  letter-spacing: 3px;
+  font-size: 20px;
   line-height: 65px;
   padding: 0 20px;
 }
 
 .header-right {
   line-height: 65px;
+  float: right;
 }
 
-.container {
-  max-width: 1170px;
-  padding: 0 15px;
+.msg-wrapper {
+  background-color: #000000;
+  padding: 100px 0px;
+}
+
+.msg-wrapper h1 {
+  font-size: 110px;
+  color: white;
+}
+
+.msg-wrapper h2 {
+  font-size: 30px;
+  color: white;
+}
+.msg-image {
+  text-align: center;
+}
+.msg-image img {
+  width: 100%;
   margin: 0 auto;
 }

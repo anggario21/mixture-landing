@@ -84,3 +84,36 @@ header li {
   width: 100%;
   margin: 0 auto;
 }
+
+.mix-stage-wrapper {
+  background-color: #000000;
+  padding: 60px 0px;
+}
+
+.card-odd {
+  height: 192px;
+  background-color: #0528f2;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 5px;
+  flex: auto;
+}
+
+.card-even {
+  height: 192px;
+  background-color: #3345a6;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 5px;
+  flex: auto;
+}
+
+.card-small-logo img {
+  width: 24px;
+}
+
+.apply-btn {
+  border-radius: 20px;
+  width: 100%;
+  color: #0528f2;
+}

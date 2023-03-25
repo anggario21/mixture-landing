@@ -117,3 +117,53 @@ header li {
   width: 100%;
   color: #0528f2;
 }
+
+.collab-wrapper {
+  background-image: url(./img/collab\ bg.png);
+  background-size: cover;
+}
+
+.collab-wrapper h1 {
+  color: white;
+  font-size: 40px;
+  padding: 60px 0px;
+}
+
+.contact-btn {
+  width: 180px;
+  color: white;
+  margin: 0px 5px;
+}
+.tele-btn {
+  width: 240px;
+  background-color: white;
+  color: #0528f2;
+  margin: 0px 5px;
+}
+.tele-btn img {
+  width: 20px;
+}
+
+.news-wrapper {
+  background-image: url(./img/news-bg.png);
+  background-size: cover;
+}
+.mix-news {
+  background-color: #0d0d0d;
+  padding-left: 100;
+}
+.mix-news img {
+  padding: 20px;
+  width: 100%;
+}
+.mix-news p {
+  font-size: 26px;
+}
+
+.load-btn {
+  margin-bottom: 15px;
+}
+
+.brand-div {
+  color: white;
+}

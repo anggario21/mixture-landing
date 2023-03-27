@@ -257,3 +257,75 @@ header li {
     opacity: 1;
   }
 }
+.mobile-ver {
+  display: none;
+}
+
+@media (max-width: 670px) {
+  .desktop-ver {
+    display: none;
+  }
+  .mobile-ver {
+    display: block;
+  }
+  .mmsg-wrapper {
+    background-color: #000000;
+  }
+  .mmsg-wrapper .row img {
+    width: 100%;
+  }
+  .mmsg-wrapper .row h1 {
+    font-size: 30px;
+  }
+  .mmsg-wrapper .row h2 {
+    font-size: 10px;
+  }
+  .mcollab-wrapper {
+    background-image: url(./img/collab\ bg.png);
+    background-size: cover;
+  }
+  .contact-btn {
+    width: 100%;
+    color: white;
+    font-size: 15px;
+  }
+  .tele-btn {
+    width: 100%;
+    background-color: white;
+    color: #0528f2;
+    font-size: 15px;
+  }
+  .tele-btn img {
+    width: 20px;
+  }
+  .mcollab-wrapper h1 {
+    font-size: 15px;
+  }
+  .news-wrapper h1 {
+    font-size: 30px;
+  }
+  .news-wrapper p {
+    font-size: 15px;
+  }
+  .mix-news {
+    background-color: #0d0d0d;
+  }
+  .mix-news img {
+    padding: 20px;
+    width: 100%;
+  }
+  .brand-div {
+    color: white;
+    /* margin: 0 auto; */
+  }
+
+  .brand-div h1 {
+    font-size: 35px;
+  }
+  .brand-div p {
+    font-size: 15px;
+  }
+  .deck-btn {
+    width: 100%;
+  }
+}

@@ -328,4 +328,128 @@ header li {
   .deck-btn {
     width: 100%;
   }
+  .gigs {
+    background-color: #0f0e0e;
+  }
+  .gigs p {
+    margin: 0;
+  }
+  .gigs-btn {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #0528f2;
+    margin: 1rem 0rem;
+  }
+  .mix-stage {
+    background-color: #011826;
+    color: white;
+  }
+
+  .mix-stage .col-10 {
+    margin-top: 2.5rem;
+  }
+  .carousel {
+    position: relative;
+    margin: 2.5rem 0;
+  }
+
+  .carousel-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+  }
+
+  .carousel-slide {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 100%;
+    margin: 0; /* remove any margin */
+    padding: 0; /* remove any padding */
+    display: none;
+    text-align: center;
+  }
+  .carousel-slide.active {
+    display: block;
+    background-color: #011826;
+    align-items: center;
+  }
+
+  .carousel-slide img {
+    width: 60%;
+    height: auto;
+  }
+
+  .carousel-prev,
+  .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+  }
+
+  .carousel-prev {
+    left: 25px;
+  }
+
+  .carousel-next {
+    right: 25px;
+  }
+  .slider-container {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 800px;
+    color: black;
+  }
+
+  .slider-wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .slider-slide {
+    scroll-snap-align: center;
+    flex: 0 0 100%;
+    max-width: 400px;
+    margin: 0 10px;
+    text-align: center;
+    color: black;
+  }
+
+  .slider-slide .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+
+  .slider-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .slider-prev,
+  .slider-next {
+    font-size: 40px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+
+  .slider-prev {
+    margin-right: 20px;
+  }
+
+  .slider-next {
+    margin-left: 20px;
+  }
 }
